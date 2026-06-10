@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lu'lu'a Lim'a Laila — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="#top" class="brand">Lu'lu'a Lim'a Laila</a>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">Tentang</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#experiences">Pengalaman</a>
+    <a href="#projects">Proyek</a>
+    <a href="#contact">Kontrak</a>
+  </div>
+</nav>
+
+<span id="top"></span>
+
+<!-- INTRO -->
+<section class="intro" id="intro-screen">
+  <div class="intro-inner">
+    <div class="intro-deco"></div>
+    <p class="intro-welcome">Hai, aku</p>
+    <h1 class="intro-name">
+      <span class="iln-wrap"><span class="iln">Lu'lu'a</span></span>
+      <span class="iln-wrap"><span class="iln iln-accent">Laila.</span></span>
+    </h1>
+  </div>
+</section>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="hero-tag">Portfolio · 2026</p>
+      <h1>
+        <span class="nl">Lu'lu'a Lim'a</span>
+        <span class="nl">Laila</span>
+      </h1>
+      <p class="hero-role">UI/UX Designer & Frontend Developer</p>
+      <div class="hero-divider"></div>
+      <p class="hero-desc">Surakarta, Indonesia.</p>
+      <div class="hero-cta">
+        <a href="https://drive.google.com/file/d/1jQE41CPVrBFuj4m7ifg50yMIWHlQupsm/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Lihat Resume
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a class="social-btn" href="https://github.com/lulualaila" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+        <a class="social-btn" href="https://linkedin.com/in/lulualaila/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-2.96-1.8-2.96-1.8 0-2.08 1.4-2.08 2.86V21H9V9Z"/></svg>
+        </a>
+        <a class="social-btn" href="mailto:lulualaila0123@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6l9 7 9-7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="figure-stage">
+      <div class="photo-glow"></div>
+      <div class="photo-frame">
+        <img class="portrait" src="wajahsaya.png" alt="Lu'lu'a Lim'a Laila">
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<!-- ABOUT -->
+<section class="band" id="about-band">
+  <span style="position:absolute;top:calc(-1*var(--nav-h))" id="about"></span>
+  <div class="shell">
+    <div class="about-wrap reveal">
+      <div>
+        <div class="sec-tag"><span class="sec-tag-text">Tentang</span></div>
+        <p class="about-text">
+          Luluk adalah mahasiswa <span class="ac">Informatika UNS</span> yang memiliki ketertarikan pada pengembangan perangkat lunak, desain antarmuka, serta penerapan teknologi untuk menyelesaikan permasalahan nyata. Selain berfokus pada aspek teknis, Luluk juga aktif dalam organisasi dan kepanitiaan yang membantu meningkatkan kemampuan komunikasi, kerja sama tim, serta kepemimpinan. Luluk percaya bahwa <span class="hi">teknologi tidak hanya tentang membangun solusi yang fungsional, tetapi juga tentang menciptakan pengalaman yang bermanfaat dan memberikan dampak positif bagi masyarakat.</span>
+        </p>
+      </div>
+      <div class="stats-col">
+        <div class="stat-card"><b>6</b><span>Semester</span></div>
+        <div class="stat-card"><b>3.74</b><span>IPK / 4.00</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="band band-soft" id="skills-band">
+  <span style="position:absolute;top:calc(-1*var(--nav-h))" id="skills"></span>
+  <div class="shell">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="sec-tag-text">Keahlian</span></div>
+    </div>
+    <div class="skill-cols reveal">
+      <div class="skill-card">
+        <h3>Design</h3>
+        <div class="chips">
+          <span class="chip">Figma</span>
+          <span class="chip">Wireframing</span>
+          <span class="chip">Prototyping</span>
+          <span class="chip">UI High-Fidelity</span>
+          <span class="chip">User Flow</span>
+          <span class="chip">Information Architecture</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Development</h3>
+        <div class="chips">
+          <span class="chip">TypeScript</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">Shadcn UI</span>
+          <span class="chip">Kotlin</span>
+          <span class="chip">Jetpack Compose</span>
+          <span class="chip">Python</span>
+          <span class="chip">HTML</span>
+          <span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Tools & Method</h3>
+        <div class="chips">
+          <span class="chip">Git & GitHub</span>
+          <span class="chip">UML</span>
+          <span class="chip">BPMN</span>
+          <span class="chip">SDLC</span>
+        </div>
+        <div class="lang-block">
+          <div class="lang">
+            <div class="lr"><span>Indonesia</span><span>Fasih</span></div>
+            <div class="lbar"><i data-w="100%"></i></div>
+          </div>
+          <div class="lang">
+            <div class="lr"><span>Inggris</span><span>Menengah</span></div>
+            <div class="lbar"><i data-w="65%"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="band" id="exp-band">
+  <span style="position:absolute;top:calc(-1*var(--nav-h))" id="experiences"></span>
+  <div class="shell">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="sec-tag-text">Pengalaman</span></div>
+    </div>
+    <div class="tl reveal">
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">BEM UNS 2026</div>
+          <div class="tl-role">Menteri Adkesma</div>
+          <div class="tl-when">Maret 2026 — Sekarang</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">RS Universitas Sebelas Maret</div>
+          <div class="tl-role">UI/UX & Frontend Intern</div>
+          <div class="tl-when">Februari2026 — Sekarang</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">Universitas Sebelas Maret</div>
+          <div class="tl-role">Asisten Praktikum RPL</div>
+          <div class="tl-when">April 2026 — Sekarang</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">PT Elweha Mitra Teknologi</div>
+          <div class="tl-role">UI/UX Intern</div>
+          <div class="tl-when">Januari — Maret 2026</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">Universitas Sebelas Maret</div>
+          <div class="tl-role">Asisten Praktikum Sistem Operasi</div>
+          <div class="tl-when">September 2024 — Januari 2025</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">BEM UNS 2025</div>
+          <div class="tl-role">Staff Adkesma</div>
+          <div class="tl-when">Maret — November 2025</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">PKKMB UNS 2025</div>
+          <div class="tl-role">Staff Fasilitator</div>
+          <div class="tl-when">Juni — Agustus 2025</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">UNS Career Festival 2025</div>
+          <div class="tl-role">Staff Kurikulum & LO Pembicara</div>
+          <div class="tl-when">April — Mei 2025</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">P!NGFEST 2024</div>
+          <div class="tl-role">Staff Sekretaris</div>
+          <div class="tl-when">April - November2024</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-card">
+          <div class="tl-org">PKKMB Fatisda UNS 2024</div>
+          <div class="tl-role">Staff Kurikulum & Kakak Pembimbing</div>
+          <div class="tl-when">Mei - Agustus 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="band" id="proj-band">
+  <span style="position:absolute;top:calc(-1*var(--nav-h))" id="projects"></span>
+  <div class="shell">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="sec-tag-text">Proyek</span></div>
+    </div>
+    <div class="proj-grid reveal">
+
+      <!-- SVG snippets as variables for reuse -->
+      <article class="proj">
+        <div class="cover has-img" style="--c1:#4c1d95;--c2:#1d4ed8">
+          <img class="cover-img" src="medforecast.png" alt="Medforecast">
+          <div class="proj-hover">
+            <a class="plink" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 24a4 4 0 0 0 4-4v-4H9a4 4 0 0 0 0 8z"/><path d="M5 12a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".7"/><path d="M5 4a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".5"/><path d="M13 0h4a4 4 0 0 1 0 8h-4z" opacity=".7"/><circle cx="17" cy="12" r="4"/></svg>Figma
+            </a>
+            <a class="plink" href="https://github.com/NaufalKusumo/medforecast" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>GitHub
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Medforecast</h3>
+          <p>Sistem prediksi & pemantauan stok obat untuk RS UNS.</p>
+          <div class="proj-tags"><span>Figma</span><span>TypeScript</span><span>Node.js</span><span>Shadcn UI</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover has-img" style="--c1:#0e7490;--c2:#047857">
+          <img class="cover-img" src="rekansukses.png" alt="Rekan Sukses">
+          <div class="proj-hover">
+            <a class="plink" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 24a4 4 0 0 0 4-4v-4H9a4 4 0 0 0 0 8z"/><path d="M5 12a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".7"/><path d="M5 4a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".5"/><path d="M13 0h4a4 4 0 0 1 0 8h-4z" opacity=".7"/><circle cx="17" cy="12" r="4"/></svg>Figma
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Rekan Sukses</h3>
+          <p>Platform monitoring layanan hukum & dokumen notaris (Elweha).</p>
+          <div class="proj-tags"><span>Figma</span><span>BPMN</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover has-img" style="--c1:#be185d;--c2:#7c3aed">
+          <img class="cover-img" src="taskive.jpg" alt="Taskive">
+          <div class="proj-hover">
+            <a class="plink" href="https://www.figma.com/design/f1jmIDW6SIXEIUzcBbP5AN/Taskive---Web-Design?node-id=10-45&t=fhPMwObiZ6fghMgo-1" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 24a4 4 0 0 0 4-4v-4H9a4 4 0 0 0 0 8z"/><path d="M5 12a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".7"/><path d="M5 4a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".5"/><path d="M13 0h4a4 4 0 0 1 0 8h-4z" opacity=".7"/><circle cx="17" cy="12" r="4"/></svg>Figma
+            </a>
+            <a class="plink" href="https://github.com/Alfaashh/Taskive" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>GitHub
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Taskive</h3>
+          <p>Aplikasi manajemen tugas dengan gamifikasi.</p>
+          <div class="proj-tags"><span>UI Design</span><span>Web</span><span>Android</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover has-img" style="--c1:#6d28d9;--c2:#2563eb">
+          <img class="cover-img" src="safeio.png" alt="Safeio">
+          <div class="proj-hover">
+            <a class="plink" href="https://www.figma.com/design/ERuhnaD0FAUgDwf8rYvAtD/Safeio---FindIT-UGM-2026?node-id=1-2&t=pwJmlTeYvJhF4bcz-1" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 24a4 4 0 0 0 4-4v-4H9a4 4 0 0 0 0 8z"/><path d="M5 12a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".7"/><path d="M5 4a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".5"/><path d="M13 0h4a4 4 0 0 1 0 8h-4z" opacity=".7"/><circle cx="17" cy="12" r="4"/></svg>Figma
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Safeio</h3>
+          <p>Aplikasi keamanan digital untuk lansia.</p>
+          <div class="proj-tags"><span>Figma</span><span>UI/UX</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover" style="--c1:#c2410c;--c2:#b45309">
+          <img class="cover-img" src="smartlamp.png" alt="RemoteLamp">
+          <div class="proj-hover">
+            <a class="plink" href="https://github.com/lulualaila/RemoteLamp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>GitHub
+            </a>
+            <a class="plink" href="https://drive.google.com/file/d/1DyAISjwi7gWhA9J2keutqUYtoC6ikH3q/view?usp=drive_link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 14L21 3M15 3h6v6M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>APK
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>RemoteLamp</h3>
+          <p>Kontrol lampu LED pintar via Bluetooth ke mikrokontroler ESP32.</p>
+          <div class="proj-tags"><span>Kotlin</span><span>Jetpack Compose</span><span>ESP32</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover has-img" style="--c1:#c2410c;--c2:#b45309">
+          <img class="cover-img" src="redesignmaxim.png" alt="Redesign Maxim">
+          <div class="proj-hover">
+            <a class="plink" href="https://www.figma.com/design/NIlMH0RT6okObMmqQfo7sK/Tugas-4-IMK?node-id=121-1023&t=owgKkAsjrMqJL3bM-1" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 24a4 4 0 0 0 4-4v-4H9a4 4 0 0 0 0 8z"/><path d="M5 12a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".7"/><path d="M5 4a4 4 0 0 1 4-4h4v8H9a4 4 0 0 1-4-4z" opacity=".5"/><path d="M13 0h4a4 4 0 0 1 0 8h-4z" opacity=".7"/><circle cx="17" cy="12" r="4"/></svg>Figma
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Redesign Maxim</h3>
+          <p>Redesign aplikasi Maxim.</p>
+          <div class="proj-tags"><span>Figma</span><span>UI Redesign</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover" style="--c1:#0d9488;--c2:#0284c7">
+          <img class="cover-img" src="revou-bmi.png" alt="Revou BMI Calculator">
+          <div class="proj-hover">
+            <a class="plink" href="https://github.com/revou-fundamental-course/20-jan-25-lulualaila" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>GitHub
+            </a>
+            <a class="plink" href="https://revou-fundamental-course.github.io/20-jan-25-lulualaila/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 14L21 3M15 3h6v6M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>Web
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Revou BMI Calculator</h3>
+          <p>Kalkulator BMI interaktif dengan perhitungan yang akurat.</p>
+          <div class="proj-tags"><span>HTML/CSS</span><span>JavaScript</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="cover" style="--c1:#0f766e;--c2:#0e7490">
+          <img class="cover-img" src="20gamesolver.png" alt="20 Game Solver">
+          <div class="proj-hover">
+            <a class="plink" href="https://github.com/lulualaila/Tugas-Perkuliahan/tree/main/Semester%20Tiga/20%20Game%20Solver" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>GitHub
+            </a>
+            <a class="plink" href="https://lidya-lulu-20-game-solver.vercel.app/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 14L21 3M15 3h6v6M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>Web
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>20 Game Solver</h3>
+          <p>Solusi algoritmik untuk 20 permainan logika menggunakan array, list, dan tree.</p>
+          <div class="proj-tags"><span>Data Structures</span><span>Web</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="band" id="contact-band">
+  <span style="position:absolute;top:calc(-1*var(--nav-h))" id="contact"></span>
+  <div class="shell">
+    <div class="contact-card reveal">
+      <div class="sec-tag"><span class="sec-tag-text">Kontak</span></div>
+      <p class="lead">Terbuka untuk magang, kolaborasi, atau sekadar berbincang soal desain & teknologi.</p>
+      <div class="clinks">
+        <a class="clink" href="mailto:lulualaila0123@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6l9 7 9-7"/></svg>
+          Email
+        </a>
+        <a class="clink" href="https://github.com/lulualaila" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+          GitHub
+        </a>
+        <a class="clink" href="https://linkedin.com/in/lulualaila/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-2.96-1.8-2.96-1.8 0-2.08 1.4-2.08 2.86V21H9V9Z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    © 2026 Lu'lu'a Lim'a Laila
+  </footer>
+</section>
+
+<script>
+// Nav solid
+const nav = document.getElementById('nav');
+addEventListener('scroll', () => nav.classList.toggle('solid', scrollY > 40), { passive: true });
+
+// Burger
+const burger = document.getElementById('burger');
+const navLinks = document.getElementById('navLinks');
+burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+// Active nav spy
+const linkMap = {};
+navLinks.querySelectorAll('a').forEach(a => linkMap[a.getAttribute('href').slice(1)] = a);
+const spy = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) {
+    const id = e.target.querySelector('[id]')?.id;
+    Object.values(linkMap).forEach(a => a.classList.remove('active'));
+    if (linkMap[id]) linkMap[id].classList.add('active');
+  }
+}), { rootMargin: '-45% 0px -50% 0px' });
+document.querySelectorAll('.band').forEach(s => spy.observe(s));
+
+// Reveal + language bars
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) {
+    e.target.classList.add('in');
+    e.target.querySelectorAll('.lbar i').forEach(b => b.style.width = b.dataset.w);
+    io.unobserve(e.target);
+  }
+}), { threshold: .12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+// Typewriter for sec-tag headings
+const twIO = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  const el = e.target;
+  const full = el.dataset.full;
+  if (!full) return;
+  el.textContent = '';
+  el.closest('.sec-tag').classList.add('typing');
+  let i = 0;
+  const tick = setInterval(() => {
+    el.textContent = full.slice(0, ++i);
+    if (i >= full.length) {
+      clearInterval(tick);
+      setTimeout(() => el.closest('.sec-tag').classList.remove('typing'), 800);
+    }
+  }, 55);
+  twIO.unobserve(el);
+}), { threshold: .6 });
+document.querySelectorAll('.sec-tag-text').forEach(el => {
+  el.dataset.full = el.textContent.trim();
+  twIO.observe(el);
+});
+</script>
+</body>
+</html>
